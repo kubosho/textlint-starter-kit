@@ -12,8 +12,8 @@
     "textlint-rule-spellcheck-tech-word": "^4.1.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "textlint"
+    "test": "textlint test",
+    "start": "textlint src"
   },
   "repository": {
     "type": "git",

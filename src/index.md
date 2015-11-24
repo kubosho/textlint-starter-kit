@@ -1,0 +1,3 @@
+textlint Starter Kitへようこそ！
+
+このリポジトリーはtextlintを簡単に使いはじめられるリポジトリーとなります。
