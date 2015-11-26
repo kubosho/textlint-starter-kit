@@ -1,7 +1,6 @@
 # textlint Starter Kit
 
 [textlint](https://github.com/textlint/textlint)のスターターキットです。
-
 このリポジトリーに含んでいるのは、textlint本体とそのプラグインのみです。
 
 ## インストール
@@ -15,7 +14,6 @@ npm install
 ```
 
 また、あわせて[Atom](https://atom.io/)というエディターや、その拡張機能である[linter](https://atom.io/packages/linter)と[linter-textlint](https://atom.io/packages/linter-textlint)をインストールするのがいいでしょう。
-
 これらをインストールすれば、Atom上からtextlintが使えるようになり、とても便利です。
 
 ## 使い方
@@ -29,7 +27,6 @@ npm start
 ## ファイルの追加方法
 
 `src`ディレクトリー以下に、テキスト形式やMarkdown形式のファイルを追加します。
-
 追加した後は、`npm start`で`src`ディレクトリー以下にある文書へ対し、textlintが実行されます。
 
 ## 貢献する方法
