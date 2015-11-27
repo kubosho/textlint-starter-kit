@@ -5,7 +5,7 @@
 
 ## インストール
 
-ターミナルなどで次のコマンドを実行してください。なお、別途[Node.js](https://nodejs.org/en/)のインストールが必要です
+ターミナルなどで次のコマンドを実行してください。なお、別途[Node.js](https://nodejs.org/en/)のインストールが必要です。
 
 ```shell
 git clone https://github.com/kubosho/textlint-starter-kit.git
@@ -24,7 +24,7 @@ npm install
 npm start
 ```
 
-## ファイルの追加方法
+### ファイルの追加方法
 
 `src`ディレクトリー以下に、テキスト形式やMarkdown形式のファイルを追加します。
 追加した後は、`npm start`で`src`ディレクトリー以下にある文書へ対し、textlintが実行されます。
