@@ -5,7 +5,16 @@
 
 ## インストール
 
-ターミナルなどで次のコマンドを実行してください。なお、別途[Node.js](https://nodejs.org/en/)のインストールが必要です。
+別途[Node.js](https://nodejs.org/en/)のインストールが必要です。
+
+### zipファイルをダウンロードしてインストール
+
+[Releases](https://github.com/kubosho/textlint-starter-kit/releases)から最新版をダウンロードしてください。
+その後、適当なディレクトリでzipを展開します。
+
+### `git clone`でインストール
+
+ターミナルなどで次のコマンドを実行してください。
 
 ```shell
 git clone https://github.com/kubosho/textlint-starter-kit.git
