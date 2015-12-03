@@ -10,7 +10,7 @@
 ### zipファイルをダウンロードしてインストール
 
 [Releases](https://github.com/kubosho/textlint-starter-kit/releases)から最新版をダウンロードしてください。
-その後、適当なディレクトリでzipを展開します。
+その後、適当なディレクトリーでzipを展開します。
 
 ### `git clone`でインストール
 
@@ -27,7 +27,7 @@ npm install
 
 ## 使い方
 
-Atomを使っているかたは、[linter](https://atom.io/packages/linter)と[linter-textlint](https://atom.io/packages/linter-textlint)さえインストールしておけば、`src`ディレクトリーにテキストやマークダウンファイルを追加することで、textlintによる自動校正がされます。
+Atomを使っている場合は、[linter](https://atom.io/packages/linter)と[linter-textlint](https://atom.io/packages/linter-textlint)をインストールすることで、`src`ディレクトリーにテキストやマークダウンファイルを追加することでtextlintによる自動校正がされます。
 
 Atomを使っていないかたは、ターミナルなどで次のコマンドを実行します。このコマンドで`src`ディレクトリー以下にある文書へ対し、textlintが実行されます。
 
