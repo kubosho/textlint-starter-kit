@@ -27,7 +27,9 @@ npm install
 
 ## 使い方
 
-ターミナルなどで次のコマンドを実行します。このコマンドで`src`ディレクトリー以下にある文書へ対し、textlintが実行されます。
+Atomを使っているかたは、[linter](https://atom.io/packages/linter)と[linter-textlint](https://atom.io/packages/linter-textlint)さえインストールしておけば、`src`ディレクトリーにテキストやマークダウンファイルを追加することで、textlintによる自動校正がされます。
+
+Atomを使っていないかたは、ターミナルなどで次のコマンドを実行します。このコマンドで`src`ディレクトリー以下にある文書へ対し、textlintが実行されます。
 
 ```shell
 npm start
