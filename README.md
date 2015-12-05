@@ -6,11 +6,13 @@
 ## インストール
 
 別途[Node.js](https://nodejs.org/en/)のインストールが必要です。
+Node.jsは特にこだわりがなければStable版をインストールします。
+Node.jsをインストールしている方は、次に挙げるいずれかのインストール方法でtextlintを使えるようにします。
 
 ### zipファイルをダウンロードしてインストール
 
 [Releases](https://github.com/kubosho/textlint-starter-kit/releases)から最新版をダウンロードしてください。
-その後、適当なディレクトリーでzipを展開します。
+その後zipを展開します。展開したらそのディレクトリー配下にあるファイルやディレクトリーを適当なところにコピー&ペーストします。
 
 ### `git clone`でインストール
 
@@ -22,23 +24,30 @@ cd textlint-starter-kit
 npm install
 ```
 
-また、あわせて[Atom](https://atom.io/)というエディターや、その拡張機能である[linter](https://atom.io/packages/linter)と[linter-textlint](https://atom.io/packages/linter-textlint)をインストールするのがいいでしょう。
+### Atom上でtextlintを使えるようにする
+
+テキストエディターとして[Atom](https://atom.io/)を使う場合は、拡張パッケージのインストールをすることで、ターミナルなどの操作なくtextlintを使うことができます。
+インストールする拡張パッケージは次の2つです。
+
+- [linter](https://atom.io/packages/linter)
+- [linter-textlint](https://atom.io/packages/linter-textlint)
+
 これらをインストールすれば、Atom上からtextlintが使えるようになり、とても便利です。
+拡張パッケージのインストールについては、次のリンクを参考にしてください。
+
+- [Atomでパッケージをインストールする方法とメニューの日本語化 – nocorica](http://blog.nocorica.jp/2015/03/atom-package-install/)
+- [#11 パッケージを導入してみよう | Atom入門 - プログラミングならドットインストール](http://dotinstall.com/lessons/basic_atom/30510)
 
 ## 使い方
 
-Atomを使っている場合は、[linter](https://atom.io/packages/linter)と[linter-textlint](https://atom.io/packages/linter-textlint)をインストールすることで、`src`ディレクトリーにテキストやマークダウンファイルを追加することでtextlintによる自動校正がされます。
+いずれの説明も、前提はtextlint-starter-kitをインストールしたディレクトリー上に`src`ディレクトリーがあることです。
 
-Atomを使っていないかたは、ターミナルなどで次のコマンドを実行します。このコマンドで`src`ディレクトリー以下にある文書へ対し、textlintが実行されます。
+- Atomと前述のAtom拡張パッケージをインストールした方は、`src`ディレクトリーにテキストやマークダウンファイルを追加することで、文章の自動校正がおこなえます。
+- Atomを使っていないかたは、ターミナルなどで次のコマンドを実行します。このコマンドで`src`ディレクトリー以下にある文書へ対し、textlintが実行されます。
 
 ```shell
 npm start
 ```
-
-### ファイルの追加方法
-
-`src`ディレクトリー以下に、テキスト形式やMarkdown形式のファイルを追加します。
-追加した後は、`npm start`で`src`ディレクトリー以下にある文書へ対し、textlintが実行されます。
 
 ## 貢献する方法
 
