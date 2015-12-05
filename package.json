@@ -1,6 +1,6 @@
 {
   "name": "textlint-starter-kit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "textlint starter kit",
   "devDependencies": {
     "textlint": "^5.0.2",
