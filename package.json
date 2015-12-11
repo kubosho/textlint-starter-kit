@@ -12,7 +12,7 @@
     "textlint-rule-spellcheck-tech-word": "^4.1.0"
   },
   "scripts": {
-    "test": "textlint test",
+    "test": "textlint README.md",
     "start": "textlint src"
   },
   "repository": {
