@@ -7,14 +7,17 @@
 
 別途[Node.js](https://nodejs.org/en/)のインストールが必要です。
 Node.jsは特にこだわりがなければStable版をインストールします。
-Node.jsをインストールしている方は、次に挙げるいずれかのインストール方法でtextlintを使えるようにします。
+Node.jsをインストールしている方は、次に挙げるどちらかのインストール方法でtextlintを使えるようにします。
 
-### zipファイルをダウンロードしてインストール
+1. <a href="#user-content-zipファイルをダウンロードしてインストール">zipファイルをダウンロードしてインストール</a>（初心者向け）
+2. <a href="#user-content-git-cloneでインストール">`git clone`でインストール</a>（上級者向け）
+
+### zipファイルをダウンロードしてインストール（初心者向け）
 
 [Releases](https://github.com/kubosho/textlint-starter-kit/releases)から最新版をダウンロードしてください。
 その後zipを展開します。展開したらそのディレクトリー配下にあるファイルやディレクトリーを適当なところにコピー&ペーストします。
 
-### `git clone`でインストール
+### `git clone`でインストール（上級者向け）
 
 ターミナルなどで次のコマンドを実行してください。
 
