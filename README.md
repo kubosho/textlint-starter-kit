@@ -1,6 +1,6 @@
 # textlint Starter Kit
 
-[![David](https://david-dm.org/kubosho/textlint-starter-kit.svg)](https://david-dm.org/kubosho/textlint-starter-kit)
+[![devDependencies Status](https://david-dm.org/kubosho/textlint-starter-kit/dev-status.svg)](https://david-dm.org/kubosho/textlint-starter-kit?type=dev)
 
 [textlint](https://github.com/textlint/textlint)のスターターキットです。
 このリポジトリーに含んでいるのは、textlint本体とそのプラグインのみです。
