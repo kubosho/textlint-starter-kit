@@ -1,5 +1,7 @@
 # textlint Starter Kit
 
+[![David](https://david-dm.org/kubosho/textlint-starter-kit.svg)](https://david-dm.org/kubosho/textlint-starter-kit)
+
 [textlint](https://github.com/textlint/textlint)のスターターキットです。
 このリポジトリーに含んでいるのは、textlint本体とそのプラグインのみです。
 
@@ -7,10 +9,7 @@
 
 別途[Node.js](https://nodejs.org/en/)のインストールが必要です。
 Node.jsは特にこだわりがなければStable版をインストールします。
-Node.jsをインストールしている方は、次に挙げるどちらかのインストール方法でtextlintを使えるようにします。
-
-1. <a href="#zipファイルをダウンロードしてインストール">zipファイルをダウンロードしてインストール</a>（Gitに慣れていない方）
-2. <a href="#git-cloneでインストール">`git clone`でインストール</a>（Gitを使いこなせる方）
+Node.jsをインストールしている方は、zipファイルをダウンロードまたは`git clone`後にインストールしてtextlintを使えるようにします。
 
 ### zipファイルをダウンロードしてインストール
 
